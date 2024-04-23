@@ -1,9 +1,7 @@
 #!/bin/bash
 #loading bar in shell script^^
 
-LOADING="" 
-
-
+LOADING="[....................................................................................................]" 
 icon="="
   for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
