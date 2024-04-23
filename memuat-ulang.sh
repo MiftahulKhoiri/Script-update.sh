@@ -5,12 +5,12 @@ echo " ¤¤¤ memeriksa pembaruan script ¤¤¤"
 git clone https://github.com/MiftahulKhoiri/Script-update.sh.git
 
 echo "menghapus berkas lama"
-sleep 3
+sleep 1
 rm -rf README.md
 rm -rf loading.sh
 rm -rf memuat-ulang.sh
 rm -rf koding-loading.sh
-sleep 3
+sleep 1
 
 clear 
 echo "memperoses file unduhan"
@@ -28,9 +28,9 @@ cd /data/data/com.termux/files/home/koding.sh
 
 clear 
 echo "menghapus file sampah"
-sleep 3
+sleep 1
 rm dir -rf Script-update.sh/
-sleep 3
+sleep 1
 
 clear 
 echo " pembaruan script selesai "
