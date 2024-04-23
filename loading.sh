@@ -3,7 +3,7 @@
 
 icon="="
 
-LOADING="[$icon]" 
+LOADING="[$icon/%]" 
 
   for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
