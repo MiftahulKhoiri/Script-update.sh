@@ -3,7 +3,7 @@
 
 LOADING="[..................................................]" 
 icon="="
-  for i in $(seq 1 50); do
+  for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
       sleep 1
       clear
