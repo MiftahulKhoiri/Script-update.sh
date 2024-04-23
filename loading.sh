@@ -10,4 +10,5 @@ icon="="
       echo $LOADING $i"%"
   done
 
+sleep 2
 echo 'selesai!'
