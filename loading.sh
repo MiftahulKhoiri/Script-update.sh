@@ -5,7 +5,7 @@ LOADING="[..................................................]"
 icon="="
   for i in $(seq 1 100); do
       LOADING=${LOADING/./$icon} 
-      sleep 1
+      sleep 0.50
       clear
       echo $LOADING $i"%"
   done
