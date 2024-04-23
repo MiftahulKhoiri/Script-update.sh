@@ -2,9 +2,9 @@
 #loading bar in shell script^^
 
 LOADING="[..................................................]" 
-passo="="
+icon="="
   for i in $(seq 1 50); do
-      LOADING=${LOADING/./$passo} 
+      LOADING=${LOADING/./$icon} 
       sleep 1
       clear
       echo $LOADING $i"%"
