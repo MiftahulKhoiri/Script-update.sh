@@ -21,10 +21,10 @@ chmod +x memuat-ulang.sh
 chmod +x koding-loading.sh
 
 cp loading.sh /data/data/com.termux/files/home
-cp memuat-ulang.sh /data/data/com.termux/files/home
-cp koding-loading.sh /data/data/com.termux/files/home
+cp memuat-ulang.sh /data/data/com.termux/files/home/koding.sh
+cp koding-loading.sh /data/data/com.termux/files/home/koding.sh
 
-cd /data/data/com.termux/files/home
+cd /data/data/com.termux/files/home/koding.sh
 
 clear 
 echo "menghapus file sampah"
