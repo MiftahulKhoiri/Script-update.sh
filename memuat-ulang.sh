@@ -14,7 +14,7 @@ sleep 3
 clear 
 echo "memperoses file unduhan"
 sleep 1
-cd /data/data/com.termux/files/home/Script-update.sh/
+cd Script-update.sh/
 chmod +x loading.sh
 chmod +x memuat-ulang.sh
 cp loading.sh /data/data/com.termux/files/home
