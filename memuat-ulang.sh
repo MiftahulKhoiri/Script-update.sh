@@ -17,6 +17,7 @@ sleep 1
 cd Script-update.sh/
 chmod +x loading.sh
 chmod +x memuat-ulang.sh
+
 cp loading.sh /data/data/com.termux/files/home
 cp memuat-ulang.sh /data/data/com.termux/files/home
 
