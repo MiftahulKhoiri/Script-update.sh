@@ -9,6 +9,7 @@ sleep 3
 rm -rf README.md
 rm -rf loading.sh
 rm -rf memuat-ulang.sh
+rm -rf koding-loading.sh
 sleep 3
 
 clear 
@@ -17,9 +18,11 @@ sleep 1
 cd Script-update.sh/
 chmod +x loading.sh
 chmod +x memuat-ulang.sh
+chmod +x koding-loading.sh
 
 cp loading.sh /data/data/com.termux/files/home
 cp memuat-ulang.sh /data/data/com.termux/files/home
+cp koding-loading.sh /data/data/com.termux/files/home
 
 cd /data/data/com.termux/files/home
 
