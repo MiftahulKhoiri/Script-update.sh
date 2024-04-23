@@ -20,7 +20,7 @@ chmod +x loading.sh
 chmod +x memuat-ulang.sh
 chmod +x koding-loading.sh
 
-cp loading.sh /data/data/com.termux/files/home
+cp loading.sh /data/data/com.termux/files/home/koding.sh
 cp memuat-ulang.sh /data/data/com.termux/files/home/koding.sh
 cp koding-loading.sh /data/data/com.termux/files/home/koding.sh
 
