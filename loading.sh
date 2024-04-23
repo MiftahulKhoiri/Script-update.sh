@@ -1,13 +1,13 @@
 #!/bin/bash
 #loading bar in shell script^^
 
-BARRA="[..................................................]" 
+LOADING="[..................................................]" 
 passo="="
   for i in $(seq 1 50); do
-      BARRA=${BARRA/./$passo} 
+      LOADING=${LOADING/./$passo} 
       sleep 1
       clear
-      echo $BARRA $i"%"
+      echo $LOADING $i"%"
   done
 
-echo 'completo!'
+echo 'selesai!'
