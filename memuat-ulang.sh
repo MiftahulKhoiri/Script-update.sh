@@ -31,7 +31,3 @@ sleep 3
 
 clear 
 echo " pembaruan script selesai "
-now=$(date +"%F/%T")
-echo "■¤¤ :TANGGAL/WAKTU: $now : ¤¤■"
-sleep 3
-figlet terimaksih 
